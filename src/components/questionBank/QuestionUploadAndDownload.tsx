@@ -1,8 +1,8 @@
 'use client';
 
+import { wpcasBackendUrl } from '@root/config';
 import axios from 'axios';
 import React, { MutableRefObject, useRef, useState } from 'react';
-import { wpcasBackendUrl } from 'root/config';
 
 import ButtonFill from '@/components/uiComponents/ButtonFill';
 import ButtonOutline from '@/components/uiComponents/ButtonOutline';

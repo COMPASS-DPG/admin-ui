@@ -9,11 +9,14 @@ const nextConfig = {
   output: 'standalone',
 
   // Uncoment to add domain whitelist
-  // images: {
-  //   domains: [
-  //     'res.cloudinary.com',
-  //   ],
-  // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+  },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports

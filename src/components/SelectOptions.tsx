@@ -19,3 +19,10 @@ export const COMPETENCY_OPTIONS = [
     value: 'back-end',
   },
 ];
+
+export const ADMIN_OPTIONS = [
+  {
+    label: 'logout',
+    value: 'logout',
+  },
+];

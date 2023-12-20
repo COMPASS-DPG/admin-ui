@@ -1,6 +1,6 @@
+import { wpcasBackendUrl } from '@root/config';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { wpcasBackendUrl } from 'root/config';
 
 type CompetencyItem = {
   competency: string;

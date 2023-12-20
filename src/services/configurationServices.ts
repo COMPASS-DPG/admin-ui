@@ -1,5 +1,5 @@
+import { wpcasBackendUrl } from '@root/config';
 import axios from 'axios';
-import { wpcasBackendUrl } from 'root/config';
 
 export const getConfigurationList = async () => {
   const data = await axios.get(`${wpcasBackendUrl}/api/survey-config`);

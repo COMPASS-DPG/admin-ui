@@ -1,6 +1,6 @@
+import { wpcasBackendUrl } from '@root/config';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { wpcasBackendUrl } from 'root/config';
 
 import { FinalObjType } from '@/app/propTypes';
 
@@ -129,7 +129,6 @@ export const updateItemOnServer = async (
     } else {
       toast.error('No change found in Competency level and Question');
     }
-
     // Handle the response or perform additional tasks as needed
   } catch (error) {
     toast.error('something went wrong');

@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 
 import Spinner from '@/components/Spinner';
 import Feedback from '@/components/wpcasOverView/Feedback';
+import ProfileNavbar from '@/components/wpcasOverView/ProfileNavbar';
 import UserTable from '@/components/wpcasOverView/UserTable';
-import WpcasNavbar from '@/components/wpcasOverView/WpcasNavbar';
 
 import { getUserList } from '@/services/configurationServices';
 
@@ -61,8 +61,8 @@ const Wpcas = () => {
   }, []);
 
   return (
-    <div className='w-screen bg-[#f7f9fc]'>
-      <WpcasNavbar heading='WPCAS' />
+    <div className='w-full bg-[#f7f9fc]'>
+      <ProfileNavbar heading='WPCAS' />
       {loading && (
         <div className='mt-[100px] text-center'>
           <Spinner />

@@ -12,6 +12,7 @@ RUN npm install
 
 # Copy the rest of the application code to the container
 COPY . .
+COPY .env.example ./env.local
 
 # Build the Next.js app
 RUN npm run build
@@ -30,6 +31,7 @@ COPY --from=build /app/public ./public
 COPY --from=build /app/package.json ./package.json
 COPY --from=build /app/.next/standalone ./
 COPY --from=build /app/.next/static ./.next/static
+COPY .env.example ./env.local
 
 # Expose the desired port
 EXPOSE 3000

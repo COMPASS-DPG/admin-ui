@@ -2,9 +2,10 @@
 import { usePathname } from 'next/navigation';
 import * as React from 'react';
 
+import SideNavbar from '@/components/navbar/SideNavbar';
 import TopNavbar from '@/components/navbar/TopNavbar';
 
-import ContextWrapper from '@/app/context/ContextWrapper';
+import QuestionBankContextWrapper from '@/app/context/QuestionBankContextWrapper';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -15,19 +16,22 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const editUrl = pathname?.includes('/edit-question-bank');
 
   return (
-    <ContextWrapper>
-      <div className='w-screen bg-[#F7F9FC]'>
-        <TopNavbar
-          menu={`${
-            createUrl
-              ? editUrl
-                ? 'Edit Question Bank'
-                : 'Create Question Bank'
-              : 'WPCAS'
-          }`}
-        />
-        {children}
+    <QuestionBankContextWrapper>
+      <div className='flex'>
+        <SideNavbar />
+        <div className='w-screen bg-[#F7F9FC]'>
+          <TopNavbar
+            menu={`${
+              createUrl
+                ? editUrl
+                  ? 'Edit Question Bank'
+                  : 'Create Question Bank'
+                : 'WPCAS'
+            }`}
+          />
+          {children}
+        </div>
       </div>
-    </ContextWrapper>
+    </QuestionBankContextWrapper>
   );
 }

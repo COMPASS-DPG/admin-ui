@@ -30,7 +30,7 @@ const SelectTag = ({
       <Select
         isDisabled={isDisabled}
         options={options}
-        value={options.find((item) => item.value === value) ?? null}
+        value={value ? { label: value, value: value } : null}
         placeholder={placeholder}
         onChange={(e: SingleValue<OptionType>) => {
           if (e) {

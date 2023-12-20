@@ -12,13 +12,13 @@ export type FinalObjType = {
 };
 
 export type OptionType = {
-  label: string;
+  label: string | number;
   value: string | number;
 };
 
 export type levelsWithQuestionType = {
   competencyLevelNumber: number;
-  competencyLevelName: string;
+  competencyLevelName: string | number;
   question: string;
   questionId: number;
   questionPresent: boolean;

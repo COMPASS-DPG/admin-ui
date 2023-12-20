@@ -116,7 +116,7 @@ const SurveyTable = ({
               <td
                 align='center'
                 colSpan={4}
-                className={` px-6 py-[14px] text-center 
+                className={` px-6 py-[30px] text-center 
              text-sm  font-normal text-[#272728]`}
               >
                 <Spinner classes='h-10 w-10' />

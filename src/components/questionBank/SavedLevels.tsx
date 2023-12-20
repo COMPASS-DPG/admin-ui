@@ -52,7 +52,7 @@ const SavedLevels = ({
             value={competencyLevelName}
             onChange={() => null}
             width='704px'
-            placeholder={competencyLevelName}
+            placeholder={competencyLevelName?.toString()}
             paddingY='2px'
             isDisabled={true}
           />

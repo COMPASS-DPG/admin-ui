@@ -6,8 +6,8 @@ interface ContextWrapperProps {
   children: ReactElement;
 }
 
-const ContextWrapper = ({ children }: ContextWrapperProps) => {
+const QuestionBankContextWrapper = ({ children }: ContextWrapperProps) => {
   return <WpcasContext>{children}</WpcasContext>;
 };
 
-export default ContextWrapper;
+export default QuestionBankContextWrapper;

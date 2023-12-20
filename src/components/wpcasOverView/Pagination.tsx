@@ -73,7 +73,6 @@ const Pagination = ({
         </div>
         <button
           className='cursor-pointer rounded-full bg-[#EEEEEE] p-2  hover:bg-gray-200'
-          // disabled={currentPage >= totalPages / pageSize}
           disabled={currentPage >= totalPages}
           onClick={() => handlePage(currentPage + 1)}
         >

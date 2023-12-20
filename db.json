@@ -1,0 +1,217 @@
+{
+  "settlement": [
+    {
+      "id": "001",
+      "thirdPartyCourseProvide": "Unacadmy",
+      "totalCourse": "50",
+      "activeUsers": "29",
+      "totalCredits": "5000"
+    },
+    {
+      "id": "002",
+      "thirdPartyCourseProvide": "Udemy",
+      "totalCourse": "30",
+      "activeUsers": "65",
+      "totalCredits": "400"
+    },
+    {
+      "id": "003",
+      "thirdPartyCourseProvide": "Codesera",
+      "totalCourse": "80",
+      "activeUsers": "85",
+      "totalCredits": "4500"
+    },
+    {
+      "id": "004",
+      "thirdPartyCourseProvide": "my course",
+      "totalCourse": "30",
+      "activeUsers": "25",
+      "totalCredits": "4200"
+    },
+    {
+      "id": "005",
+      "thirdPartyCourseProvide": "Unacadmy",
+      "totalCourse": "50",
+      "activeUsers": "29",
+      "totalCredits": "5000"
+    },
+    {
+      "id": "006",
+      "thirdPartyCourseProvide": "Udemy",
+      "totalCourse": "30",
+      "activeUsers": "65",
+      "totalCredits": "400"
+    },
+    {
+      "id": "007",
+      "thirdPartyCourseProvide": "Codesera",
+      "totalCourse": "80",
+      "activeUsers": "85",
+      "totalCredits": "4500"
+    },
+    {
+      "id": "008",
+      "thirdPartyCourseProvide": "my course",
+      "totalCourse": "30",
+      "activeUsers": "25",
+      "totalCredits": "4200"
+    },
+    {
+      "id": "009",
+      "thirdPartyCourseProvide": "Unacadmy",
+      "totalCourse": "50",
+      "activeUsers": "29",
+      "totalCredits": "5000"
+    },
+    {
+      "id": "010",
+      "thirdPartyCourseProvide": "Udemy",
+      "totalCourse": "30",
+      "activeUsers": "65",
+      "totalCredits": "400"
+    },
+    {
+      "id": "011",
+      "thirdPartyCourseProvide": "Codesera",
+      "totalCourse": "80",
+      "activeUsers": "85",
+      "totalCredits": "4500"
+    },
+    {
+      "id": "012",
+      "thirdPartyCourseProvide": "my course",
+      "totalCourse": "30",
+      "activeUsers": "25",
+      "totalCredits": "4200"
+    },
+    {
+      "id": "013",
+      "thirdPartyCourseProvide": "Unacadmy",
+      "totalCourse": "50",
+      "activeUsers": "29",
+      "totalCredits": "5000"
+    },
+    {
+      "id": "014",
+      "thirdPartyCourseProvide": "Udemy",
+      "totalCourse": "30",
+      "activeUsers": "65",
+      "totalCredits": "400"
+    },
+    {
+      "id": "015",
+      "thirdPartyCourseProvide": "Codesera",
+      "totalCourse": "80",
+      "activeUsers": "85",
+      "totalCredits": "4500"
+    },
+    {
+      "id": "016",
+      "thirdPartyCourseProvide": "my course",
+      "totalCourse": "30",
+      "activeUsers": "25",
+      "totalCredits": "4200"
+    }
+  ],
+
+  "wallet": [
+    {
+      "userId": "001",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "002",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "003",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "004",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "005",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "006",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "007",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "008",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "009",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "010",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "011",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "012",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "013",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    },
+    {
+      "userId": "014",
+      "userName": "Sushma kumari",
+      "role": "Nursing",
+      "coursePurchased": 3,
+      "walletBalance": 200
+    }
+  ]
+}
